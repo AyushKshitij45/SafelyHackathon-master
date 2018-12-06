@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.admin.myapplication.SignUp2Activity">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:layout_gravity="center"
+
+        >
+        <TextView
+            android:id="@+id/Bhmhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhamashah ID"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:textColor="#424242"/>
+        <EditText
+            android:id="@+id/bhm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColorHighlight="#0277BD"
+            android:maxLines="1"
+            android:hint="eg: 1234"/>
+        <TextView
+            android:id="@+id/colHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Institution/Office"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:textColor="#424242"/>
+        <EditText
+            android:id="@+id/institution_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColorHighlight="#0277BD"
+            android:maxLines="1"
+            android:hint="eg: Manipal"/>
+        <TextView
+            android:id="@+id/blood_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you have high pressure?"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:textColor="#424242"/>
+        <Spinner
+            android:id="@+id/b_p"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:spinnerMode="dropdown"
+            android:backgroundTint="#0277BD"
+            >
+
+        </Spinner>
+        <TextView
+            android:id="@+id/diebities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you have a Diebities?"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:textColor="#424242"/>
+
+
+        <Spinner
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:spinnerMode="dropdown"
+            android:backgroundTint="#0277BD"
+            >
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/mailHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you have a cronic disease?"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:textColor="#424242"/>
+
+        <EditText
+            android:id="@+id/chronic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cronic disease(if any)"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+
+            android:textColorHighlight="#0277BD"
+            android:textSize="14dp" />
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="22dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/next"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Finish"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:paddingVertical="15dp"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\admin\\Desktop\\everything else\\SafelyHackathon-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.37.0.aar\\25805de28234fa2af534fc9ece1897c3\\res\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endColumns": "62,74",
+                        "endOffsets": "113,188"
+                    }
+                }
+            ]
+        }
+    ]
+}
